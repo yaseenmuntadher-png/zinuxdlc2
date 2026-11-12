@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "zenuxdlc",
+  "version": "${version}",
+  "name": "Zenux DLC",
+  "description": "Simplified Fabric utility client for 1.21.4.",
+  "authors": ["ALPHA XK"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.zenux.dlc.ZenuxDLC"]
+  },
+  "mixins": ["zenuxdlc.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
